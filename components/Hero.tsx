@@ -7,10 +7,10 @@ import { CiLinkedin } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import { FaPaperPlane } from "react-icons/fa6";
 
-const Hero = async ({ onClick }) => {
+const Hero = ({ onClick }: { onClick: (id: string) => void }) => {
   return (
     <div
-      className="border flex flex-col items-center justify-center h-full md:min-h-full bg-gray-50 overflow-y-auto"
+      className="border flex flex-col items-center justify-center h-full md:min-h-full bg-primary-grey overflow-y-auto"
       //   style={{ minHeight: "calc(100vh - 100px)" }}
     >
       <div className="w-[330px] h-auto">
